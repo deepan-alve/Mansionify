@@ -45,8 +45,13 @@ function Navbar() {
 
             <Button
               variant="default"
-              className="rounded-full bg-black text-white hover:bg-black/90 px-4 md:px-6 text-xs md:text-sm"
+              className="rounded-full bg-black text-white hover:bg-black/90 px-3 py-1.5 text-xs md:text-sm flex items-center gap-1.5"
             >
+              <img 
+                src="/homesmile.svg" 
+                alt="Home" 
+                className="w-4 h-4 filter brightness-0 invert" 
+              />
               Home
             </Button>
             <Button
